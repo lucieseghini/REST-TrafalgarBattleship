@@ -1,0 +1,83 @@
+/*_______________________________PLACING_____________________________*/
+
+.container {
+	padding-bottom: 10%;
+}
+section>.grid>.row>.col-lg-1,
+section>.grid>.row>.col-md-1,
+section>.grid>.row>.col-sm-1 {
+	width: 10%;
+	height: 50px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.occupied {
+	background-color: #a7471b;
+	box-shadow: 0px 0px 5px 0px #000000;
+}
+.water {
+	/*background-color: #030356;*/
+	background: linear-gradient(132deg, #a5d0dd, #267e92);
+	background-size: 400% 400%;
+	-webkit-animation: AnimationName 4s ease infinite;
+	-moz-animation: AnimationName 4s ease infinite;
+	animation: AnimationName 4s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+	0%{background-position:0% 33%}
+	50%{background-position:100% 68%}
+	100%{background-position:0% 33%}
+}
+@-moz-keyframes AnimationName {
+	0%{background-position:0% 33%}
+	50%{background-position:100% 68%}
+	100%{background-position:0% 33%}
+}
+@keyframes AnimationName {
+	0%{background-position:0% 33%}
+	50%{background-position:100% 68%}
+	100%{background-position:0% 33%}
+}
+section:first-of-type,
+.grid {
+	padding: 15px;
+	background-color: #513C2D;
+	border-radius: 15px;
+	color: #faf8f5;
+	box-shadow: 0px 0px 5px 0px #513C2D;
+}
+section:nth-of-type(2) {
+	padding: 0% 5% 0% 5%;
+}
+.glyphicon {
+	color: #faf8f5;
+	text-decoration: none;
+	margin-left: 7px;
+}
+section > p:not(:last-of-type) {
+	margin: 0 0 25px;
+}
+.col-lg-2,
+.col-lg-3,
+.col-lg-7,
+.col-md-2,
+.col-md-3,
+.col-md-7,
+.col-sm-2,
+.col-sm-3,
+.col-sm-7,
+.col-xs-2,
+.col-xs-3,
+.col-xs-7 {
+	padding-right: 0px;
+    padding-left: 0px;
+}
+#placing h1 {
+	text-align: center;
+	font-size: 3em;
+}
+#placing {
+	margin-bottom: 50px;
+}

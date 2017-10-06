@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #5f3919b3;
+    background-image: url("../../public/wood1.jpg");
+    background-attachment: fixed;
+}
+body {
+    position:relative;
+    padding-top: 50px;
+    height:auto;
+}
+html {
+    height:100%;
+}
+body,
+html {
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*_______________________________HEADER_____________________________*/
+img {
+    border: 0;
+    width: 50px;
+}
+header{
+    display: none;
+}
+.navbar {
+    padding: 10px 0px 6px 0px;
+    margin: 0px;
+    /*box-shadow: 0px 0px 15px 0px #FFF;*/
+    border: none;
+    display: block;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-default {
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+}
+.navbar > .container-fluid .navbar-brand {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: none;
+}
+.navbar-header {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.navbar-form {
+    padding: 0px 15px;
+    border: none ;
+}
+
+
+/*_______________________________JUMBOTRON_____________________________*/
+.jumbotron h1 {
+    font-size: 11em;
+    text-shadow: 0 5px 15px #453927;
+}
+.jumbotron h2 {
+    font-size: 5em;
+}
+.jumbotron h1,
+.jumbotron h2 {
+    color: #faf8f5;
+}
+.jumbotron>a {
+    color: #faf8f5;
+    text-decoration: none;
+}
+.jumbotron>a:hover{
+    color: #453927cc;
+    text-decoration: none;
+    text-shadow: 0px 0px 1px #897575;
+    cursor:pointer
+}
+.jumbotron {
+    background-color:  #4e474066;
+    padding-top: 90px;
+    margin-bottom: 0px;
+}
+h1,
+h2 {
+    font-family: 'Italianno', cursive;
+}
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-image: -webkit-linear-gradient(top,#513C2D,#5E412D 90%);
+    border-color: #513C2D;
+    background-repeat: inherit;
+}
+#blockBtn {
+    margin : 30px 0px 30px 0px;
+}
+.notAlerted {
+    display: none;
+}
+.alerted {
+    display: block;
+}
+
+
+/*_______________________________MODAL_____________________________*/
+.modal-content {
+    text-align: center;
+}
+#myModal {
+    z-index: 5000;
+}
+
+
+/*_______________________________CONTENT_____________________________*/
+#rules {
+    padding: 5% 25% 5% 25%;
+}
+#rules p {
+    line-height: 2em;
+    text-shadow: 0px 1px 1px #7e71714d;
+}
+.content,
+footer {
+    background : #faf8f5;
+}
+.content {
+    padding-top: 5%;
+    box-shadow: 0px 0px 50px 0px #513C2D;
+}
+.divider {
+    display: block;
+    width: auto;
+    height: 15px;
+    background: url("../img/divider5.png") center center no-repeat;
+}
+table,
+th {
+    text-align : center;
+}
+#board {
+    padding: 5% 25% 5% 25%;
+}
+#board .form-inline .btn {
+    margin-left: 5px;
+}
+
+
+/*_______________________________FOOTER_____________________________*/
+footer p {
+    font-size: 10px;
+}
+.footer-info {
+    border-top: 8px solid #513C2D;
+    color: #6C6C6C;
+    text-align: center;
+    height: auto;
+}
+.footer-logo  {
+    padding: 10px;
+}
+.footer-brand {
+    padding : 50px 0px 50px 0px;
+}

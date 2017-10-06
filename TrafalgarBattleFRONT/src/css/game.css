@@ -1,0 +1,42 @@
+/*_______________________________GAME_____________________________*/
+
+.gameSection>.grid>.row>.col-lg-1,
+.gameSection>.grid>.row>.col-md-1,
+.gameSection>.grid>.row>.col-sm-1 {
+    width: 10%;
+    height: 50px;
+}
+.opacgameSection>.grid>.row>.col-lg-1,
+.opacgameSection>.grid>.row>.col-md-1,
+.opacgameSection>.grid>.row>.col-sm-1 {
+    width: 10%;
+    height: 50px;
+}
+.gameSection {
+    width: 50%;
+}
+.opacgameSection {
+    width: 50%;
+    opacity: 0.5
+}
+.gameSection:nth-of-type(2) .opacgameSection:nth-of-type(2) {
+    float: right;
+}
+.gameSection:nth-of-type(2) .water:hover {
+    -moz-box-shadow: inset 0px 0px 20px 0px #142362;
+    -webkit-box-shadow: inset 0px 0px 20px 0px #142362;
+    -o-box-shadow: inset 0px 0px 20px 0px #142362;
+    box-shadow: inset 0px 0px 20px 0px #142362;
+    cursor: pointer;
+}
+.label {
+    font-size: 15px;
+}
+.emptyHitCase {
+    background-color: #567dd899;
+    box-shadow: inset 0px 0px 15px 0px #142362;
+}
+#placing {
+    text-align: center;
+    height: 80px;
+}
