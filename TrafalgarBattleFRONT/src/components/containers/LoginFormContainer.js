@@ -8,7 +8,6 @@ class LoginFormContainer extends React.Component {
 
     state = {
         username: '',
-        password: '',
         alertAttribute: 'notAlerted',
         alertText: ''
     };
@@ -18,15 +17,10 @@ class LoginFormContainer extends React.Component {
         this.setState({username: this.inputUsername.value});
     };
 
-    onChangePassword = (e) => {
-        e.preventDefault();
-        this.setState({password: this.inputPassword.value});
-    };
-
     onSubmit = (e) => {
         e.preventDefault();
 
-        if( this.state.username !== '' && this.state.password !== '' )
+        if( this.state.username !== '')
         {
             userLoginRequest(this.state);
 
@@ -58,15 +52,6 @@ class LoginFormContainer extends React.Component {
                         <FormControl type="text" inputRef={(ref) => {
                             this.inputUsername = ref;
                         }} onChange={this.onChangeUsername}/>
-                    </InputGroup>
-                </FormGroup>
-                <FormGroup>
-                    <ControlLabel className="col-md-2 control-label">Mot de passe</ControlLabel>
-                    <InputGroup className="col-md-10 inputGroupContainer">
-                        <InputGroup.Addon><Glyphicon glyph="eye-close"/></InputGroup.Addon>
-                        <FormControl type="password" inputRef={(ref) => {
-                            this.inputPassword = ref;
-                        }} onChange={this.onChangePassword}/>
                     </InputGroup>
                 </FormGroup>
                 <FormGroup>

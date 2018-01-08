@@ -6,8 +6,8 @@ class Footer extends React.Component {
             <footer>
                 <div className="footer-info">
                     <div className="footer-brand">
-                        <p>Loïc Devoille & Lucie Seurin</p>
-                        <p>2016-2017 M1 Miage Apprentissage</p>
+                        <p>Raphaël Benedito Vitoriano & Lucie Seurin</p>
+                        <p>2017-2018 M2 Miage Apprentissage</p>
                     </div>
                 </div>
             </footer>

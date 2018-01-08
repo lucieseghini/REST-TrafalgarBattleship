@@ -5,9 +5,9 @@ class Rules extends React.Component {
         return (
             <div id="rules">
                 <p>
-                    Dans le cadre de la formation Master 1 Miage apprentissage, nous avons pour projet de réaliser une
-                    application. Le sujet choisi est une application web proposé par M. Julien Hairapian. Il s’agit d’une
-                    application permettant à deux personnes connectées de jouer au jeu de la bataille navale en temps réel.
+                    Dans le cadre de la formation Master 2 Miage apprentissage, nous avons pour projet de réaliser une
+                    application avec des requêtes en REST. Le sujet choisi est une application web. Il s’agit d’une application
+                    permettant à deux personnes connectées de jouer au jeu de la bataille navale en temps réel.
                     Le jeu de bataille navale, ou touché-coulé, est au départ un jeu de société. Le but est de placer des
                     navires sur une grille qui n’est pas connue du joueur adverse, il doit réussir à lui couler les siens. Le
                     premier des joueurs qui parvient à toucher (“couler”) la totalité des navires adverses, remporte la partie.
